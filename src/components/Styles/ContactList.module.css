@@ -1,18 +1,20 @@
 .contactList {
   margin-top: 30px;
   padding: 0;
+  font-size: 17px;
 }
 .contactList__item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 300px;
+  width: 400px;
 }
 .contactList__item:not(:last-child) {
   margin-bottom: 20px;
 }
 .contactList__btn {
   font-weight: 700;
+  font-family: serif;
   padding: 5px 15px;
   background-color: #ff0;
   border: none;
